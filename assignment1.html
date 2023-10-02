@@ -408,7 +408,7 @@ print(&quot;This code chunk is visible in this section.&quot;)</code></pre>
 <div id="exercise-1" class="section level3">
 <h3>Exercise 1</h3>
 <p>Here, I will present the results of writing a for loop to print out
-the numbers from 1 to 10</p>
+the numbers from 1 to 20</p>
 <pre><code>## [1] 1
 ## [1] 2
 ## [1] 3
@@ -418,7 +418,26 @@ the numbers from 1 to 10</p>
 ## [1] 7
 ## [1] 8
 ## [1] 9
-## [1] 10</code></pre>
+## [1] 10
+## [1] 11
+## [1] 12
+## [1] 13
+## [1] 14
+## [1] 15
+## [1] 16
+## [1] 17
+## [1] 18
+## [1] 19
+## [1] 20</code></pre>
+<p>This prints the number 1 to 20, each on a separate line.</p>
+</div>
+<div id="exercise-2" class="section level3">
+<h3>Exercise 2</h3>
+<p>Here, I will print 10 random numbers from uniform distribution.</p>
+<pre><code>##  [1] 0.57578419 0.04760932 0.74255689 0.21992454 0.54546323 0.59155932
+##  [7] 0.88470321 0.62634235 0.62513087 0.65246883</code></pre>
+<p>This drew 10 random numbers from uniform distribution.This completes
+the second exercise.</p>
 </div>
 </div>
 <div id="appendix-all-code-in-this-assignment" class="section level2">
@@ -439,9 +458,13 @@ plot(x,y) # two-way scatterplot using R&#39;s default plotting
 print(&quot;This code chunk is visible in this section.&quot;)
 
 # For loop to print out the numbers from 1 to 10
-for (i in 1:10){
+for (i in 1:20){
   print(i)
 }
+
+# Draw 10 draes from a uniform distribution
+runif(10)
+
 # this chunk generates the complete code appendix. 
 # eval=FALSE tells R not to run (``evaluate&#39;&#39;) the code here (it was already run before).</code></pre>
 </div>
