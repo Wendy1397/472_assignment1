@@ -52,7 +52,7 @@ print("This code chunk is visible in this section.")
 
 ### Exercise 1
 
-Here, I will present the results of writing a for loop to print out the numbers from 1 to 10
+Here, I will present the results of writing a for loop to print out the numbers from 1 to 20
 
 ```{r ex1}
 
