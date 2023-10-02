@@ -49,7 +49,9 @@ In specific instances, however, you may be directed to report your code in-line 
 
 print("This code chunk is visible in this section.")
 ```
+
 ### Exercise 1
+
 Here, I will present the results of writing a for loop to print out the numbers from 1 to 10
 
 ```{r ex1}
@@ -59,11 +61,13 @@ for (i in 1:20){
   print(i)
 }
 ```
- This prints the number 1 to 20, each on a separate line.
+ 
+This prints the number 1 to 20, each on a separate line.
  
 ### Exercise 2
 
 Here, I will print 10 random numbers from uniform distribution.
+
 ```{r ex2}
 
 # Draw 10 draes from a uniform distribution
@@ -72,6 +76,7 @@ runif(10)
 ```
 
 This drew 10 random numbers from uniform distribution.
+
 ## Appendix: All code in this assignment
 
 ```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE} 
